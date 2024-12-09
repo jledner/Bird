@@ -10,18 +10,10 @@ private:
     string sound;
 
 public:
-    Penguin(string color, string b) : Bird(color) {
-        sound = b;
-    }
-    void walk() {
-        cout << "The penguin is waddling" << endl;
-    }
-    virtual void makeSound() {
-        cout << sound;
-    }
-    virtual void makeSound(string s) {
-        cout << s;
-    }
+    Penguin(string, string);
+    void walk();
+    virtual void makeSound();
+    virtual void makeSound(string);
 };
 
 
