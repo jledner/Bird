@@ -7,7 +7,7 @@ using namespace std;
 
 Bird::Bird() {
     this->color = "n/a";
-    cout << "using the Bird() constructor" << endl;
+    cout << "Using the Bird() constructor" << endl;
 }
 
 
@@ -21,4 +21,8 @@ void Bird::makeSound() const {
 
 void Bird::eat() const {
     cout << "The bird (colored: " << getColor() << ") is eating." << endl;
+}
+
+void Bird::walk() const {
+    cout << "The bird (colored: " << getColor() << ") is walking." << endl;
 }
