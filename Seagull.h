@@ -10,7 +10,7 @@ public:
         cout << "Using the Seagull() constructor" << endl;
     }
     Seagull(string color) : Bird(color) {}
-    void printColor() { cout << "The color of the seagull is " << color; }
+    void printColor() { cout << "The color of the seagull is " << color << endl; }
     virtual void fly() {
         cout << "The seagull is flying" << endl;
     }

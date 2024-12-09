@@ -14,6 +14,7 @@ public:
     void setColor(string color) { this->color = color; }
     virtual void makeSound() const;
     virtual void eat() const;
+    virtual void walk() const;
 };
 
 

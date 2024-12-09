@@ -1,5 +1,5 @@
-#ifndef SEAGULL_H
-#define SEAGULL_H
+#ifndef PENGUIN_H
+#define PENGUIN_H
 
 #include "Bird.h"
 #include <iostream>
@@ -11,9 +11,9 @@ private:
 
 public:
     Penguin(string, string);
-    void walk();
-    virtual void makeSound();
-    virtual void makeSound(string);
+    void walk() const;
+    void makeSound() const;
+    void makeSound(string) const;
 };
 
 
