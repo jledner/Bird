@@ -13,7 +13,7 @@ public:
     string getColor() const { return color; }
     void setColor(string color) { this->color = color; }
     virtual void makeSound() const;
-    virtual void eat() const;
+    void eat() const;
     virtual void walk() const;
 };
 

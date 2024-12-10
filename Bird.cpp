@@ -16,7 +16,7 @@ Bird::Bird(string color) {
 }
 
 void Bird::makeSound() const {
-    cout << "The bird ( colored: " << getColor() << ") is making a sound." << endl;
+    cout << "The bird (colored: " << getColor() << ") is making a sound." << endl;
 }
 
 void Bird::eat() const {
